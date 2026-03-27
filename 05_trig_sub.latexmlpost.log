@@ -1,0 +1,11 @@
+latexmlpost (LaTeXML version 0.8.8; revision 48ad18db) paginating /Users/guanshengmei/Documents/LaTeXML/test_output/XMath/05_trig_sub.xml
+(post-processing...
+(Scan 05_trig_sub.xml processing...
+Scan: DBStatus: 27/0 objects
+ 0.00 sec)
+(CrossRef 05_trig_sub.xml processing... 0.00 sec)
+(MathML::Content[w/XMath] 05_trig_sub.xml 8 to process...
+converted 8 Maths
+ 0.01 sec)
+(Writer 05_trig_sub.xml processing... 0.00 sec) 0.01 sec)
+Postprocessing complete No obvious problems (reqd. 0.11s)

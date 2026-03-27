@@ -1,0 +1,11 @@
+latexmlpost (LaTeXML version 0.8.8; revision 48ad18db) paginating /Users/guanshengmei/Documents/LaTeXML/test_output/XMath/03_derivatives.xml
+(post-processing...
+(Scan 03_derivatives.xml processing...
+Scan: DBStatus: 25/0 objects
+ 0.00 sec)
+(CrossRef 03_derivatives.xml processing... 0.00 sec)
+(MathML::Content[w/XMath] 03_derivatives.xml 6 to process...
+converted 6 Maths
+ 0.01 sec)
+(Writer 03_derivatives.xml processing... 0.00 sec) 0.01 sec)
+Postprocessing complete No obvious problems (reqd. 0.10s)

@@ -1,0 +1,11 @@
+latexmlpost (LaTeXML version 0.8.8; revision 48ad18db) paginating /Users/guanshengmei/Documents/LaTeXML/test_output/XMath/02_functions.xml
+(post-processing...
+(Scan 02_functions.xml processing...
+Scan: DBStatus: 48/0 objects
+ 0.00 sec)
+(CrossRef 02_functions.xml processing... 0.00 sec)
+(MathML::Content[w/XMath] 02_functions.xml 10 to process...
+converted 10 Maths
+ 0.01 sec)
+(Writer 02_functions.xml processing... 0.00 sec) 0.01 sec)
+Postprocessing complete No obvious problems (reqd. 0.10s)

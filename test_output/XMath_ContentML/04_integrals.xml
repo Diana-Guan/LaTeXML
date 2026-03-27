@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths="/Users/guanshengmei/Documents/LaTeXML,/Users/guanshengmei/Documents/LaTeXML/test_input"?>
+<?latexml class="article"?>
+<?latexml package="amsmath,amssymb"?>
+<?latexml RelaxNGSchema="LaTeXML"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:id="Document">
+  <resource src="LaTeXML.css" type="text/css"/>
+  <resource src="ltx-article.css" type="text/css"/>
+  <para xml:id="p1" fragid="p1">
+    <equation xml:id="S0.Ex1" fragid="S0.Ex1">
+      <Math mode="display" tex="\int x^{2}\,dx" text="integral@(x ^ 2 * differential-d@(x))" xml:id="S0.Ex1.m1" fragid="S0.Ex1.m1"><m:math alttext="\int x^{2}\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:times/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMApp rpadding="1.7pt">
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p2" fragid="p2">
+    <equation xml:id="S0.Ex2" fragid="S0.Ex2">
+      <Math mode="display" tex="\int(x^{2}+1)\,dx" text="integral@((x ^ 2 + 1) * differential-d@(x))" xml:id="S0.Ex2.m1" fragid="S0.Ex2.m1"><m:math alttext="\int(x^{2}+1)\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:times/><m:apply><m:plus/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply><m:cn type="integer">1</m:cn></m:apply><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMDual>
+                <XMRef idref="S0.Ex2.m1.1.xm"/>
+                <XMWrap>
+                  <XMTok role="OPEN" stretchy="false">(</XMTok>
+                  <XMApp xml:id="S0.Ex2.m1.1.xm" fragid="S0.Ex2.m1.1.xm">
+                    <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                    <XMApp>
+                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                      <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                    <XMTok meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMTok role="CLOSE" rpadding="1.7pt" stretchy="false">)</XMTok>
+                </XMWrap>
+              </XMDual>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p3" fragid="p3">
+    <equation xml:id="S0.Ex3" fragid="S0.Ex3">
+      <Math mode="display" tex="\int\sin x\,dx" text="integral@(sine@(x * d * x))" xml:id="S0.Ex3.m1" fragid="S0.Ex3.m1"><m:math alttext="\int\sin x\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:sin/><m:apply><m:times/><m:ci>𝑥</m:ci><m:ci>𝑑</m:ci><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="sine" role="TRIGFUNCTION">sin</XMTok>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN" rpadding="1.7pt">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p4" fragid="p4">
+    <equation xml:id="S0.Ex4" fragid="S0.Ex4">
+      <Math mode="display" tex="\int_{0}^{1}x^{2}\,dx" text="((integral _ 0) ^ 1)@(x ^ 2 * differential-d@(x))" xml:id="S0.Ex4.m1" fragid="S0.Ex4.m1"><m:math alttext="\int_{0}^{1}x^{2}\,dx" display="block"><m:semantics><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:int/><m:cn type="integer">0</m:cn></m:apply><m:cn type="integer">1</m:cn></m:apply><m:apply><m:times/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+              <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+            </XMApp>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMApp rpadding="1.7pt">
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p5" fragid="p5">
+    <equation xml:id="S0.Ex5" fragid="S0.Ex5">
+      <Math mode="display" tex="\int_{a}^{b}f(x)\,dx" text="((integral _ a) ^ b)@(f * x * differential-d@(x))" xml:id="S0.Ex5.m1" fragid="S0.Ex5.m1"><m:math alttext="\int_{a}^{b}f(x)\,dx" display="block"><m:semantics><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:int/><m:ci>𝑎</m:ci></m:apply><m:ci>𝑏</m:ci></m:apply><m:apply><m:times/><m:ci>𝑓</m:ci><m:ci>𝑥</m:ci><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">a</XMTok>
+              </XMApp>
+              <XMTok font="italic" fontsize="70%" role="UNKNOWN">b</XMTok>
+            </XMApp>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMTok font="italic" role="UNKNOWN">f</XMTok>
+              <XMDual>
+                <XMRef idref="S0.Ex5.m1.1.xm"/>
+                <XMWrap>
+                  <XMTok role="OPEN" stretchy="false">(</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="S0.Ex5.m1.1.xm" fragid="S0.Ex5.m1.1.xm">x</XMTok>
+                  <XMTok role="CLOSE" rpadding="1.7pt" stretchy="false">)</XMTok>
+                </XMWrap>
+              </XMDual>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p6" fragid="p6">
+    <equation xml:id="S0.Ex6" fragid="S0.Ex6">
+      <Math mode="display" tex="\int\frac{1}{x}\,dx" text="integral@((1 / x) * differential-d@(x))" xml:id="S0.Ex6.m1" fragid="S0.Ex6.m1"><m:math alttext="\int\frac{1}{x}\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:times/><m:apply><m:divide/><m:cn type="integer">1</m:cn><m:ci>𝑥</m:ci></m:apply><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMApp rpadding="1.7pt">
+                <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p7" fragid="p7">
+    <equation xml:id="S0.Ex7" fragid="S0.Ex7">
+      <Math mode="display" tex="\int\sqrt{1-x^{2}}\,dx" text="integral@(square-root@(1 - x ^ 2) * differential-d@(x))" xml:id="S0.Ex7.m1" fragid="S0.Ex7.m1"><m:math alttext="\int\sqrt{1-x^{2}}\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:times/><m:apply><m:root/><m:apply><m:minus/><m:cn type="integer">1</m:cn><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply></m:apply></m:apply><m:apply><m:csymbol cd="latexml">differential-d</m:csymbol><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMApp rpadding="1.7pt">
+                <XMTok meaning="square-root"/>
+                <XMApp>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMTok meaning="1" role="NUMBER">1</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
+                    <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+              <XMApp>
+                <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p8" fragid="p8">
+    <equation xml:id="S0.Ex8" fragid="S0.Ex8">
+      <Math mode="display" tex="\int e^{x}\cos x\,dx" text="integral@(e ^ x * cosine@(x * d * x))" xml:id="S0.Ex8.m1" fragid="S0.Ex8.m1"><m:math alttext="\int e^{x}\cos x\,dx" display="block"><m:semantics><m:apply><m:int/><m:apply><m:times/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑒</m:ci><m:ci>𝑥</m:ci></m:apply><m:apply><m:cos/><m:apply><m:times/><m:ci>𝑥</m:ci><m:ci>𝑑</m:ci><m:ci>𝑥</m:ci></m:apply></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">e</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">x</XMTok>
+              </XMApp>
+              <XMApp>
+                <XMTok meaning="cosine" role="TRIGFUNCTION">cos</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" rpadding="1.7pt">x</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">d</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+</document>

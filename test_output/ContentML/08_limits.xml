@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths="/Users/guanshengmei/Documents/LaTeXML,/Users/guanshengmei/Documents/LaTeXML/test_input"?>
+<?latexml class="article"?>
+<?latexml package="amsmath,amssymb"?>
+<?latexml RelaxNGSchema="LaTeXML"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:id="Document">
+  <resource src="LaTeXML.css" type="text/css"/>
+  <resource src="ltx-article.css" type="text/css"/>
+  <para xml:id="p1" fragid="p1">
+    <equation xml:id="S0.Ex1" fragid="S0.Ex1">
+      <Math mode="display" tex="\lim_{x\to 0}\frac{\sin x}{x}" text="(limit _ (x to 0))@(sine@(x) / x)" xml:id="S0.Ex1.m1" fragid="S0.Ex1.m1"><m:math alttext="\lim_{x\to 0}\frac{\sin x}{x}" display="block"><m:apply><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:limit/><m:apply><m:ci>→</m:ci><m:ci>𝑥</m:ci><m:cn type="integer">0</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:sin/><m:ci>𝑥</m:ci></m:apply><m:ci>𝑥</m:ci></m:apply></m:apply></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p2" fragid="p2">
+    <equation xml:id="S0.Ex2" fragid="S0.Ex2">
+      <Math mode="display" tex="\lim_{n\to\infty}\frac{1}{n}" text="(limit _ (n to infinity))@(1 / n)" xml:id="S0.Ex2.m1" fragid="S0.Ex2.m1"><m:math alttext="\lim_{n\to\infty}\frac{1}{n}" display="block"><m:apply><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:limit/><m:apply><m:ci>→</m:ci><m:ci>𝑛</m:ci><m:infinity/></m:apply></m:apply><m:apply><m:divide/><m:cn type="integer">1</m:cn><m:ci>𝑛</m:ci></m:apply></m:apply></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p3" fragid="p3">
+    <equation xml:id="S0.Ex3" fragid="S0.Ex3">
+      <Math mode="display" tex="\lim_{x\to\infty}\frac{x^{2}+1}{x^{2}-1}" text="(limit _ (x to infinity))@((x ^ 2 + 1) / (x ^ 2 - 1))" xml:id="S0.Ex3.m1" fragid="S0.Ex3.m1"><m:math alttext="\lim_{x\to\infty}\frac{x^{2}+1}{x^{2}-1}" display="block"><m:apply><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:limit/><m:apply><m:ci>→</m:ci><m:ci>𝑥</m:ci><m:infinity/></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply><m:cn type="integer">1</m:cn></m:apply><m:apply><m:minus/><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:cn type="integer">2</m:cn></m:apply><m:cn type="integer">1</m:cn></m:apply></m:apply></m:apply></m:math></Math>
+    </equation>
+  </para>
+</document>

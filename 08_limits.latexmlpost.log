@@ -1,0 +1,11 @@
+latexmlpost (LaTeXML version 0.8.8; revision 48ad18db) paginating /Users/guanshengmei/Documents/LaTeXML/test_output/XMath/08_limits.xml
+(post-processing...
+(Scan 08_limits.xml processing...
+Scan: DBStatus: 12/0 objects
+ 0.00 sec)
+(CrossRef 08_limits.xml processing... 0.00 sec)
+(MathML::Content[w/XMath] 08_limits.xml 3 to process...
+converted 3 Maths
+ 0.00 sec)
+(Writer 08_limits.xml processing... 0.00 sec) 0.01 sec)
+Postprocessing complete No obvious problems (reqd. 0.10s)

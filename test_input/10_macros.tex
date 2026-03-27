@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Custom macros copied from Q34_Version3.tex.
+\newcounter{solutionMainStep}
+\newcounter{solutionSubStep}[solutionMainStep]
+\renewcommand{\thesolutionSubStep}{\arabic{solutionMainStep}.\arabic{solutionSubStep}}
+\newcommand{\deflink}[2]{\hyperlink{def:#1}{\textcolor{blue}{\underline{#2}}}}
+\newcommand{\defanchor}[1]{\hypertarget{def:#1}{}}
+\newcommand{\questionanchor}[1]{\hypertarget{q:#1}{}}
+\newcommand{\qdeflink}[2]{\hypertarget{q:#1}{}\deflink{#1}{#2}}
+\newcommand{\backtoterm}[2]{\hyperlink{q:#1}{\textbf{#2}}}
+
+\newcommand{\mainStep}[2]{%
+    \refstepcounter{solutionMainStep}
+    \setcounter{solutionSubStep}{0}
+    \label{a-#1:\arabic{solutionMainStep}}%
+    \begin{tcolorbox}[
+        breakable,
+        colback=gray!5!white,
+        colframe=gray!80!black,
+        boxrule=0.5pt,
+        arc=2mm,
+        left=0pt, right=0pt, top=2pt, bottom=2pt,
+        before skip=2pt, after skip=2pt,
+        enhanced]
+        \textbf{Step \arabic{solutionMainStep}:} \textbf{\small #2}
+    \end{tcolorbox}
+}
+
+\newcommand{\solutionStep}[3]{%
+    \refstepcounter{solutionSubStep}
+    \label{a-#1:\arabic{solutionMainStep}.\arabic{solutionSubStep}}%
+    \begin{tcolorbox}[
+        breakable,
+        colback=gray!5!white,
+        colframe=gray!80!black,
+        boxrule=0.5pt,
+        arc=2mm,
+        left=0pt, right=0pt, top=2pt, bottom=2pt,
+        before skip=2pt, after skip=2pt,
+        enhanced]
+        \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{5cm} X}
+            \textbf{Step \arabic{solutionMainStep}.\arabic{solutionSubStep}:}\\
+            \textbf{\small #2} & #3
+        \end{tabularx}
+    \end{tcolorbox}
+}
+
+\begin{document}
+
+\section*{Macro Tests}
+
+\defanchor{denominator}
+\textbf{Denominator}: the bottom part of a fraction.
+
+\questionanchor{34}
+
+\mainStep{1}{Rewrite the denominator $(4-x^2)^{\frac{3}{2}}$.}
+
+\solutionStep{1}{Identify the \qdeflink{denominator}{denominator}}{
+In
+\[
+\frac{x^2}{(4-x^2)^{\frac{3}{2}}},
+\]
+the denominator is
+\[
+(4-x^2)^{\frac{3}{2}}.
+\]
+}
+
+\solutionStep{1}{Use trigonometric substitution}{
+When the expression contains
+\[
+\sqrt{a^2-x^2},
+\]
+we can let
+\[
+x=a\sin\theta.
+\]
+See \backtoterm{denominator}{the linked term}.
+}
+
+\end{document}

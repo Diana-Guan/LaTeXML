@@ -1,0 +1,11 @@
+latexmlpost (LaTeXML version 0.8.8; revision 48ad18db) paginating /Users/guanshengmei/Documents/LaTeXML/test_output/XMath/06_rational.xml
+(post-processing...
+(Scan 06_rational.xml processing...
+Scan: DBStatus: 22/0 objects
+ 0.00 sec)
+(CrossRef 06_rational.xml processing... 0.00 sec)
+(MathML::Content[w/XMath] 06_rational.xml 5 to process...
+converted 5 Maths
+ 0.01 sec)
+(Writer 06_rational.xml processing... 0.00 sec) 0.01 sec)
+Postprocessing complete No obvious problems (reqd. 0.10s)

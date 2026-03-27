@@ -1,0 +1,785 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+
+\begin{document}
+
+% Extracted from Q34_Version3.tex
+
+% item=1 kind=display context=plain lines=97-99
+\[
+\displaystyle\int \frac{x^2}{(4-x^2)^{\frac{3}{2}}}\, dx.
+\]
+
+% item=2 kind=display context=solutionStep:body lines=125-127
+\[
+\frac{x^2}{(4-x^2)^\frac{3}{2}},
+\]
+
+% item=3 kind=display context=solutionStep:body lines=129-131
+\[
+(4-x^2)^{\frac{3}{2}}.
+\]
+
+% item=4 kind=display context=solutionStep:body lines=137-139
+\[
+(4-x^2)^{\frac{3}{2}}
+\]
+
+% item=5 kind=display context=solutionStep:body lines=141-143
+\[
+a^{\frac{m}{n}}=\sqrt[n]{a^m}=\left(\sqrt[n]{a}\right)^m,\qquad \sqrt{a} =a^{\frac{1}{2}}.
+\]
+
+% item=6 kind=display context=solutionStep:body lines=148-168
+\[
+\begin{array}{@{}r@{}l@{}}
+ Rewrite \frac{3}{2}=\frac{1}{2}\cdot 3
+ &
+ (4-x^2)^{\frac{3}{2}}
+ = (4-x^2)^{\frac{1}{2}\cdot 3}
+ \\[2.2ex]
+ Use a^{bc}=(a^b)^c
+ &
+ (4-x^2)^{\frac{1}{2}\cdot 3}
+ =
+ \left((4-x^2)^{\frac{1}{2}}\right)^3
+ \\[2.2ex]
+ Rewrite (4-x^2)^{\frac{1}{2}} as a square root &
+ \left((4-x^2)^{\frac{1}{2}}\right)^3
+ =
+ \left(\sqrt{4-x^2}\right)^3
+ \end{array}
+\]
+
+% item=7 kind=display context=solutionStep:body lines=183-185
+\[
+\sqrt{4-x^2},
+\]
+
+% item=8 kind=display context=solutionStep:body lines=187-189
+\[
+\sqrt{a^2-x^2}.
+\]
+
+% item=9 kind=display context=solutionStep:body lines=200-202
+\[
+\sqrt{a^2-x^2},
+\]
+
+% item=10 kind=display context=solutionStep:body lines=204-206
+\[
+x=a\sin\theta.
+\]
+
+% item=11 kind=display context=solutionStep:body lines=211-219
+\[
+\begin{aligned}
+ Substitute x=a\sin\theta
+ \qquad &
+ \sqrt{a^2-x^2}
+ =
+ \sqrt{a^2-(a\sin\theta)^2}
+ \end{aligned}
+\]
+
+% item=12 kind=display context=solutionStep:body lines=227-242
+\[
+\begin{array}{@{}r@{}l@{}}
+ Use Power of a Product Rule , &
+ (a b )^2=a^2 b ^2
+ \\[1.2ex]
+ Substitute b=\sin\theta,
+ &
+ (a \sin\theta )^2=a^2( \sin\theta )^2
+ \\[1.2ex]
+ &
+ \sqrt{a^2- (a\sin\theta)^2 }
+ = \sqrt{a^2- a^2(\sin\theta)^2 }
+ \end{array}
+\]
+
+% item=13 kind=environment:aligned context=solutionStep:body lines=247-250
+\[
+\begin{aligned}[t]
+ For pattern \sqrt{a^2-x^2}, let x &= a\sin\theta\\
+ \sqrt{a^2-x^2} &= \sqrt{a^2-a^2(\sin\theta)^2}
+ \end{aligned}
+\]
+
+% item=14 kind=display context=solutionStep:body lines=258-295
+\[
+\begin{array}{@{}r@{}l@{}r@{}c@{}l@{}}
+ Rewrite 4=2\cdot 2=
+ &
+ 2^2
+ &
+ \sqrt{4-x^2}
+ &
+ =
+ &
+ \sqrt{2^2-x^2}
+ \\[1.2ex]
+ &
+ Let &
+ \sqrt{2^2-x^2}
+ &
+ =
+ &
+ \sqrt{a^2-x^2}
+ \\[1.2ex]
+ &
+ &
+ a
+ &
+ =
+ &
+ 2 \\[1.2ex]
+ &
+ &
+ x
+ &
+ =
+ &
+ a \sin\theta = 2 \sin\theta
+ \end{array}
+\]
+
+% item=15 kind=environment:aligned context=solutionStep:body lines=303-308
+\[
+\begin{aligned}[t]
+ \sqrt{a^2-x^2}
+ &= \sqrt{a^2-a^2(\sin\theta)^2}\\
+ \sqrt{2^2-x^2}
+ &= \sqrt{2^2-2^2(\sin\theta)^2}
+ \end{aligned}
+\]
+
+% item=16 kind=display context=solutionStep:body lines=316-323
+\[
+\begin{array}{@{}r@{}l@{}}
+ Replace 2^2=4
+ &
+ \sqrt{ 2^2 - 2^2 (\sin\theta)^2}
+ = \sqrt{ 4 - 4 (\sin\theta)^2}
+ \end{array}
+\]
+
+% item=17 kind=display context=solutionStep:body lines=328-340
+\[
+\begin{array}{@{}r@{}l@{}}
+ Rewrite 4=4\cdot 1
+ &
+ 4 -4(\sin\theta)^2
+ = 4(1) -4((\sin\theta)^2)
+ \\[1.2ex]
+ Factor out 4
+ &
+ 4 - 4 (\sin\theta)^2
+ = 4 (1-(\sin\theta)^2)
+ \end{array}
+\]
+
+% item=18 kind=display context=solutionStep:body lines=345-372
+\[
+\begin{array}{@{}r@{}r@{}c@{}l@{}}
+ By (\sin\theta)^2=\sin^2\theta , &
+ 4(1- (\sin\theta)^2 )
+ &
+ =
+ &
+ 4(1- \sin^2\theta )
+ \\[1.2ex]
+ By Pythagorean identity , &
+ 1-\sin^2\theta
+ &
+ =
+ &
+ \cos^2\theta
+ \\[1.2ex]
+ Substitute the Pythagorean identity, &
+ 4( 1-\sin^2\theta )
+ &
+ =
+ &
+ 4( \cos^2\theta )
+ \end{array}
+\]
+
+% item=19 kind=environment:aligned context=solutionStep:body lines=377-383
+\[
+\begin{aligned}[t]
+ \sqrt{4-x^2}
+ &= \sqrt{2^2-x^2}\quad from Step 3.1 \\
+ &= \sqrt{2^2-2^2(\sin\theta)^2}\quad from Step 3.2 \\
+ &= \sqrt{4(1-\sin^2\theta)}\quad from Step 4.1 and Step 4.2 \\
+ &= \sqrt{4\cos^2\theta}\quad from Step 4.3 \end{aligned}
+\]
+
+% item=20 kind=display context=solutionStep:body lines=391-404
+\[
+\begin{array}{@{}r@{}l@{}}
+ From Step 1.3 , &
+ (4-x^2)^{\frac{3}{2}}=\left(\sqrt{4-x^2}\right)^3
+ \\[1.5ex]
+ Substitute \sqrt{4-x^2}=\sqrt{4\cos^2\theta}
+ &
+ \left(\sqrt{4-x^2}\right)^3
+ =
+ \left(\sqrt{4\cos^2\theta}\right)^3
+ \end{array}
+\]
+
+% item=21 kind=display context=solutionStep:body lines=412-426
+\[
+\begin{array}{@{}r@{}l@{}}
+ Since \sqrt{ab}=\sqrt{a}\sqrt{b} , &
+ \sqrt{4\,\cos^2\theta}
+ =
+ \sqrt4\,\sqrt{\cos^2\theta}
+ \\[2.0ex]
+ \sqrt4=2 &
+ \sqrt4\,\sqrt{\cos^2\theta}
+ =
+ 2\,\sqrt{\cos^2\theta}
+ \end{array}
+\]
+
+% item=22 kind=display context=solutionStep:body lines=435-447
+\[
+\begin{array}{@{}r@{}l@{}}
+ Use \sqrt{u^2}=|u|
+ &
+ \sqrt{\cos^2\theta}=|\cos\theta|
+ \\[1.2ex]
+ Multiply both sides by 2
+ &
+ 2 \sqrt{\cos^2\theta}
+ =
+ 2 |\cos\theta|
+ \end{array}
+\]
+
+% item=23 kind=display context=solutionStep:body lines=453-473
+\[
+\begin{array}{@{}r@{}l@{}}
+ Cube both sides &
+ \left(\sqrt{4\cos^2\theta}\right)^{ 3 }
+ =
+ (2|\cos\theta|)^{ 3 }
+ \\[1.2ex]
+ Use (ab)^3=a^3b^3
+ &
+ (2|\cos\theta|)^3
+ =
+ 2^3 |\cos\theta|^3
+ \\[1.2ex]
+ Simplify 2^3
+ &
+ \left(\sqrt{4\cos^2\theta}\right)^3
+ =
+ 8 |\cos\theta|^3
+ \end{array}
+\]
+
+% item=24 kind=display context=solutionStep:body lines=478-489
+\[
+\begin{array}{@{}r@{}l@{}}
+ For x=2\sin\theta , we take 0\le \theta\le \frac{\pi}{2}
+ &
+ \cos\theta\ge 0
+ \\[1.2ex]
+ So |\cos\theta|=\cos\theta
+ &
+ 8|\cos\theta|^3=8\cos^3\theta
+ \end{array}
+\]
+
+% item=25 kind=display context=solutionStep:body lines=493-504
+\[
+\begin{aligned}[t]
+ \sqrt{4\cos^2\theta}
+ &= 2\sqrt{\cos^2\theta}\quad from Step 5.2 \\
+ 2\sqrt{\cos^2\theta}
+ &= 2|\cos\theta|\quad from Step 5.3 \\
+ \left(\sqrt{4\cos^2\theta}\right)^3
+ &= 8|\cos\theta|^3\quad from Step 5.4 \\
+ (4-x^2)^{\frac{3}{2}}
+ &= 8\cos^3\theta\quad from Step 5.6 \end{aligned}
+\]
+
+% item=26 kind=display context=solutionStep:body lines=512-522
+\[
+\begin{array}{@{}r@{}l@{}}
+ Start with the substitution &
+ x=2\sin\theta\quad from Step 3.1 \\[1.2ex]
+ Square both sides &
+ x^2=(2\sin\theta)^2
+ \end{array}
+\]
+
+% item=27 kind=display context=solutionStep:body lines=527-539
+\[
+\begin{array}{@{}r@{}l@{}}
+ Let a=2,\; b=\sin\theta
+ &
+ (ab)^2=a^2b^2
+ \\[1.2ex]
+ Substitute into the rule &
+ (2\sin\theta)^{ 2 }
+ =
+ 2^{ 2 }(\sin\theta)^{ 2 }
+ \end{array}
+\]
+
+% item=28 kind=display context=solutionStep:body lines=545-563
+\[
+\begin{array}{@{}r@{}l@{}}
+ Compute 2^2
+ &
+ 2^2=4
+ \\[1.2ex]
+ By square of trigonometric functions &
+ (\sin\theta)^2=\sin^2\theta
+ \\[1.2ex]
+ Substitute &
+ 2^2(\sin\theta)^2=4\sin^2\theta
+ \\[1.2ex]
+ Therefore &
+ x^2=4\sin^2\theta
+ \end{array}
+\]
+
+% item=29 kind=display context=solutionStep:body lines=571-594
+\[
+\begin{array}{@{}r@{}l@{}}
+ Start with the substitution &
+ x=2\sin\theta\quad from Step 3.1 \\[1.2ex]
+ Differentiate both sides with respect to \theta
+ &
+ \frac{dx}{d\theta}=\frac{d}{d\theta}(2\sin\theta)
+ \\[1.2ex]
+ Use the constant multiple rule &
+ \frac{dx}{d\theta}
+ =
+ 2 \frac{d}{d\theta}(\sin\theta)
+ \\[1.2ex]
+ Since \frac{d}{d\theta}(\sin\theta)=\cos\theta
+ &
+ \frac{dx}{d\theta}
+ =
+ 2 \cos\theta
+ \end{array}
+\]
+
+% item=30 kind=display context=solutionStep:body lines=600-616
+\[
+\begin{array}{@{}r@{}l@{}}
+ Start with &
+ \frac{dx}{d\theta}=2\cos\theta
+ \\[1.2ex]
+ Multiply both sides by d\theta
+ &
+ d\theta \left(\frac{dx}{d\theta}\right)
+ =
+ (2\cos\theta) d\theta \\[1.2ex]
+ So &
+ dx=2\cos\theta\, d\theta
+ \end{array}
+\]
+
+% item=31 kind=display context=solutionStep:body lines=624-630
+\[
+\begin{aligned}[t]
+ x^2 &= 4\sin^2\theta \quad from Step 6 \\
+ (4-x^2)^{\frac{3}{2}} &= 8\cos^3\theta \quad from Step 1 to Step 5 \\
+ dx &= 2\cos\theta\, d\theta \quad from Step 7 \end{aligned}
+\]
+
+% item=32 kind=display context=solutionStep:body lines=635-650
+\[
+\begin{array}{@{}r@{}l@{}}
+ Start with the original integral &
+ \displaystyle\int \frac{x^2}{(4-x^2)^{\frac{3}{2}}}\,dx
+ \\[1.2ex]
+ Substitute the expressions from Step 8.1 &
+ \displaystyle\int \frac{x^2}{(4-x^2)^{\frac{3}{2}}}\,dx
+ =
+ \displaystyle\int
+ \frac{ 4\sin^2\theta }{ 8\cos^3\theta }\,
+ (2\cos\theta\, d\theta) \end{array}
+\]
+
+% item=33 kind=display context=solutionStep:body lines=658-673
+\[
+\begin{array}{@{}r@{}l@{}}
+ &
+ \displaystyle\int \frac{4\sin^2\theta}{8\cos^3\theta}\, 2\cos\theta \, d\theta
+ =
+ \displaystyle\int \frac{4\cdot 2 \sin^2\theta \cos\theta }{8\cos^3\theta}\, d\theta
+ \\[1.2ex]
+ Simplify 4\cdot 2
+ &
+ \displaystyle\int \frac{4\cdot2\sin^2\theta\cos\theta}{8\cos^3\theta}\, d\theta
+ =
+ \displaystyle\int \frac{ 8 \sin^2\theta\cos\theta}{8\cos^3\theta}\, d\theta
+ \end{array}
+\]
+
+% item=34 kind=display context=solutionStep:body lines=678-687
+\[
+\begin{array}{@{}r@{}l@{}}
+ Cancel the common factor 8
+ &
+ \displaystyle\int \frac{ 8 \sin^2\theta\cos\theta}{ 8 \cos^3\theta}\, d\theta
+ =
+ \displaystyle\int \frac{\sin^2\theta\cos\theta}{\cos^3\theta}\, d\theta
+ \end{array}
+\]
+
+% item=35 kind=display context=solutionStep:body lines=692-711
+\[
+\begin{array}{@{}r@{}l@{}}
+ Rewrite \cos^3\theta
+ &
+ \cos^3\theta=\cos^2\theta\cos\theta
+ \\[1.2ex]
+ Substitute into the denominator &
+ \displaystyle\int \frac{\sin^2\theta\cos\theta}{ \cos^3\theta }\, d\theta
+ =
+ \displaystyle\int \frac{\sin^2\theta\cos\theta}{ \cos^2\theta\cos\theta }\, d\theta
+ \\[1.2ex]
+ Cancel \cos\theta
+ &
+ \displaystyle\int \frac{\sin^2\theta \cos\theta }{\cos^2\theta \cos\theta }\, d\theta
+ =
+ \displaystyle\int \frac{\sin^2\theta}{\cos^2\theta}\, d\theta
+ \end{array}
+\]
+
+% item=36 kind=display context=solutionStep:body lines=716-732
+\[
+\begin{array}{@{}r@{}l@{}}
+ By definition of tangent, &
+ \tan\theta=\dfrac{\sin\theta}{\cos\theta}
+ \\[1.2ex]
+ Square both sides &
+ \tan^2\theta=\dfrac{\sin^2\theta}{\cos^2\theta}
+ \\[1.2ex]
+ Rewrite the integrand &
+ \displaystyle\int \dfrac{\sin^2\theta}{\cos^2\theta}\, d\theta
+ =
+ \displaystyle\int \tan^2\theta\, d\theta
+ \end{array}
+\]
+
+% item=37 kind=display context=solutionStep:body lines=740-759
+\[
+\begin{array}{@{}r@{}l@{}}
+ Use the trigonometry identity &
+ \tan^2\theta=\sec^2\theta-1
+ \\[1.2ex]
+ Substitute into the integral &
+ \displaystyle\int \tan^2\theta \, d\theta
+ =
+ \displaystyle\int (\sec^2\theta-1) \, d\theta
+ \\[1.2ex]
+ By additive property of integrals &
+ \displaystyle\int (\sec^2\theta-1)\, d\theta
+ =
+ \displaystyle\int \sec^2\theta\, d\theta-\displaystyle\int 1\, d\theta
+ \end{array}
+\]
+
+% item=38 kind=display context=solutionStep:body lines=764-785
+\[
+\begin{array}{@{}r@{}l@{}}
+ Integrate \sec^2\theta
+ &
+ \displaystyle\int \sec^2\theta\, d\theta=\tan\theta
+ \\[1.2ex]
+ Integrate 1
+ &
+ \displaystyle\int 1\, d\theta=\theta
+ \\[1.2ex]
+ Combine the result &
+ \displaystyle\int \sec^2\theta\, d\theta-\displaystyle\int 1\, d\theta
+ =
+ \tan\theta-\theta+C
+ \\[1.2ex]
+ Therefore &
+ \displaystyle\int \tan^2\theta\, d\theta=\tan\theta-\theta+C
+ \end{array}
+\]
+
+% item=39 kind=display context=solutionStep:body lines=799-820
+\[
+\begin{array}{@{}r@{}l@{}}
+ Start with &
+ x=2\sin\theta\quad from Step 3.1 \\[1.2ex]
+ Multiply both sides by \frac{1}{2}
+ &
+ \frac{1}{2} x
+ =
+ \frac{1}{2} 2\sin\theta
+ \\[1.2ex]
+ \frac{1}{2}\cdot 2=1 &
+ \frac{x}{2}=\sin\theta
+ \\[1.2ex]
+ Apply \sin^{-1} to both side of the equation &
+ \theta=\sin^{-1}\!\left(\frac{x}{2}\right)
+ \end{array}
+\]
+
+% item=40 kind=display context=solutionStep:body lines=825-832
+\[
+\begin{array}{@{}r@{}l@{}}
+ Use \sin\theta=\frac{ opposite }{ hypotenuse } &
+ \sin\theta=\frac{ opposite }{ hypotenuse }=\frac{x}{2}
+ \end{array}
+\]
+
+% item=41 kind=display context=solutionStep:body lines=837-844
+\[
+\begin{array}{@{}r@{}l@{}}
+ From \sin\theta=\frac{x}{2}
+ &
+ opposite = x ,\quad hypotenuse = 2 \end{array}
+\]
+
+% item=42 kind=display context=solutionStep:body lines=859-870
+\[
+\begin{array}{@{}r@{}l@{}}
+ By the Pythagorean Theorem , &
+ adjacent =\sqrt{ hypotenuse ^2- opposite ^2}
+ \\[1.2ex]
+ Substitute the values &
+ adjacent =\sqrt{2^2-x^2}= \sqrt{4-x^2} \end{array}
+\]
+
+% item=43 kind=display context=solutionStep:body lines=875-882
+\[
+\begin{array}{@{}r@{}l@{}}
+ Use \tan\theta=\frac{ opposite }{ adjacent }
+ &
+ \tan\theta=\frac{ x }{ \sqrt{4-x^2} }
+ \end{array}
+\]
+
+% item=44 kind=display context=solutionStep:body lines=890-908
+\[
+\begin{array}{@{}r@{}l@{}}
+ From Step 10.2 , &
+ \displaystyle\int \frac{x^2}{(4-x^2)^{\frac{3}{2}}}\,dx
+ =
+ \tan\theta-\theta+C
+ \\[1.2ex]
+ Substitute Step 11.2 and Step 11.6 &
+ \displaystyle\int \frac{x^2}{(4-x^2)^{\frac{3}{2}}}\,dx
+ =
+ \frac{x}{\sqrt{4-x^2}} -
+ \sin^{-1}\!\left(\frac{x}{2}\right) + C
+ \end{array}
+\]
+
+% item=45 kind=display context=solutionStep:body lines=913-915
+\[
+The correct option is b .
+\]
+
+% item=46 kind=display context=plain lines=931-933
+\[
+\frac{d}{dx}\left(\frac{x^3}{3}\right)=x^2,
+\]
+
+% item=47 kind=display context=plain lines=942-944
+\[
+\frac{x^2}{(4-x^2)^{3/2}}
+\]
+
+% item=48 kind=display context=plain lines=953-955
+\[
+\frac{x^2}{(4-x^2)^{3/2}}
+\]
+
+% item=49 kind=display context=plain lines=965-967
+\[
+3x+7,
+\]
+
+% item=50 kind=display context=plain lines=977-979
+\[
+3x+7,
+\]
+
+% item=51 kind=display context=plain lines=986-988
+\[
+(ab)^n = a^n b^n.
+\]
+
+% item=52 kind=display context=plain lines=991-993
+\[
+(3x)^2=3^2x^2=9x^2.
+\]
+
+% item=53 kind=display context=plain lines=1002-1004
+\[
+\sqrt{4-x^2}=\sqrt{2^2-x^2}
+\]
+
+% item=54 kind=display context=plain lines=1008-1012
+\[
+\sqrt{a^2-x^2}: x=a\sin\theta,\qquad
+ \sqrt{a^2+x^2}: x=a\tan\theta,\qquad
+ \sqrt{x^2-a^2}: x=a\sec\theta.
+\]
+
+% item=55 kind=display context=plain lines=1018-1020
+\[
+a^{m/n}=\sqrt[n]{a^m}=\left(a^{1/n}\right)^m.
+\]
+
+% item=56 kind=display context=plain lines=1023-1025
+\[
+(4-x^2)^{3/2}=\left((4-x^2)^{1/2}\right)^3=\left(\sqrt{4-x^2}\right)^3.
+\]
+
+% item=57 kind=display context=plain lines=1031-1035
+\[
+(\sin\theta)^2=\sin^2\theta,\qquad
+ (\cos\theta)^2=\cos^2\theta,\qquad
+ (\tan\theta)^2=\tan^2\theta.
+\]
+
+% item=58 kind=display context=plain lines=1041-1045
+\[
+\sin^2\theta+\cos^2\theta=1
+ \quad\Longleftrightarrow\quad
+ 1-\sin^2\theta=\cos^2\theta.
+\]
+
+% item=59 kind=display context=plain lines=1048-1050
+\[
+4-4\sin^2\theta=4(1-\sin^2\theta)=4\cos^2\theta.
+\]
+
+% item=60 kind=display context=plain lines=1056-1058
+\[
+a^2+b^2=c^2.
+\]
+
+% item=61 kind=display context=plain lines=1062-1064
+\[
+adjacent ^2=2^2-x^2=4-x^2.
+\]
+
+% item=62 kind=display context=plain lines=1069-1073
+\[
+y^2=x
+ \quad\Longrightarrow\quad
+ y is a square root of x.
+\]
+
+% item=63 kind=display context=plain lines=1075-1079
+\[
+\sqrt{x}=y
+ \quad\Longleftrightarrow\quad
+ y^2=x and y\ge 0.
+\]
+
+% item=64 kind=display context=plain lines=1082-1084
+\[
+\sqrt{9}=3
+\]
+
+% item=65 kind=display context=plain lines=1086-1088
+\[
+3^2=9.
+\]
+
+% item=66 kind=display context=plain lines=1091-1093
+\[
+\sqrt{x^2}=|x|
+\]
+
+% item=67 kind=display context=plain lines=1094-1096
+\[
+\sqrt{a}\sqrt{b}=\sqrt{ab}
+\]
+
+% item=68 kind=display context=plain lines=1097-1099
+\[
+\sqrt{\frac{a}{b}}=\frac{\sqrt{a}}{\sqrt{b}}
+\]
+
+% item=69 kind=display context=plain lines=1100-1104
+\[
+\left(\sqrt{a}\right)^2=a
+ \quad and \quad
+ a^\frac{1}{2}=\sqrt{a}
+\]
+
+% item=70 kind=display context=plain lines=1110-1112
+\[
+\frac{d}{d\theta}\bigl(c\,f(\theta)\bigr)=c\,f'(\theta).
+\]
+
+% item=71 kind=display context=plain lines=1115-1117
+\[
+\frac{d}{d\theta}(2\sin\theta)=2\cos\theta.
+\]
+
+% item=72 kind=display context=plain lines=1123-1125
+\[
+\int (f(x)+g(x))\,dx=\int f(x)\,dx + \int g(x)\,dx
+\]
+
+% item=73 kind=display context=plain lines=1127-1129
+\[
+\int (f(x)-g(x))\,dx=\int f(x)\,dx - \int g(x)\,dx.
+\]
+
+% item=74 kind=display context=plain lines=1132-1136
+\[
+\int (\sec^2\theta-1)\,d\theta
+ =
+ \int \sec^2\theta\,d\theta-\int 1\,d\theta.
+\]
+
+% item=75 kind=display context=plain lines=1144-1146
+\[
+|3|=3,\qquad |-3|=3.
+\]
+
+% item=76 kind=display context=plain lines=1148-1150
+\[
+\sqrt{u^2}=|u|.
+\]
+
+% item=77 kind=display context=plain lines=1152-1154
+\[
+|\cos\theta|=\cos\theta.
+\]
+
+% item=78 kind=display context=plain lines=1160-1164
+\[
+\sin\theta=\frac{ opposite }{ hypotenuse },\qquad
+ \cos\theta=\frac{ adjacent }{ hypotenuse },\qquad
+ \tan\theta=\frac{ opposite }{ adjacent }.
+\]
+
+% item=79 kind=display context=plain lines=1169-1171
+\[
+\sqrt{2^2-x^2}=\sqrt{4-x^2},
+\]
+
+% item=80 kind=display context=plain lines=1173-1175
+\[
+\tan\theta=\frac{x}{\sqrt{4-x^2}}.
+\]
+
+% item=81 kind=display context=plain lines=1184-1186
+\[
+\theta=\sin^{-1}\!\left(\frac{x}{2}\right).
+\]
+
+\end{document}

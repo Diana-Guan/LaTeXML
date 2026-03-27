@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths="/Users/guanshengmei/Documents/LaTeXML,/Users/guanshengmei/Documents/LaTeXML/test_input"?>
+<?latexml class="article"?>
+<?latexml package="amsmath,amssymb"?>
+<?latexml RelaxNGSchema="LaTeXML"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:id="Document">
+  <resource src="LaTeXML.css" type="text/css"/>
+  <resource src="ltx-article.css" type="text/css"/>
+  <para xml:id="p1" fragid="p1">
+    <equation xml:id="S0.Ex1" fragid="S0.Ex1">
+      <Math mode="display" tex="\sum_{n=1}^{\infty}\frac{1}{n^{2}}" text="((sum _ (n = 1)) ^ infinity)@(1 / n ^ 2)" xml:id="S0.Ex1.m1" fragid="S0.Ex1.m1"><m:math alttext="\sum_{n=1}^{\infty}\frac{1}{n^{2}}" display="block"><m:semantics><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:sum/><m:apply><m:eq/><m:ci>𝑛</m:ci><m:cn type="integer">1</m:cn></m:apply></m:apply><m:infinity/></m:apply><m:apply><m:divide/><m:cn type="integer">1</m:cn><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑛</m:ci><m:cn type="integer">2</m:cn></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="mid1"/>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
+                <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                </XMApp>
+              </XMApp>
+              <XMTok fontsize="70%" meaning="infinity" name="infty" role="ID">∞</XMTok>
+            </XMApp>
+            <XMApp>
+              <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p2" fragid="p2">
+    <equation xml:id="S0.Ex2" fragid="S0.Ex2">
+      <Math mode="display" tex="\sum_{k=0}^{n}k" text="((sum _ (k = 0)) ^ n)@(k)" xml:id="S0.Ex2.m1" fragid="S0.Ex2.m1"><m:math alttext="\sum_{k=0}^{n}k" display="block"><m:semantics><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:sum/><m:apply><m:eq/><m:ci>𝑘</m:ci><m:cn type="integer">0</m:cn></m:apply></m:apply><m:ci>𝑛</m:ci></m:apply><m:ci>𝑘</m:ci></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="mid1"/>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
+                <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                </XMApp>
+              </XMApp>
+              <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+            </XMApp>
+            <XMTok font="italic" role="UNKNOWN">k</XMTok>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p3" fragid="p3">
+    <equation xml:id="S0.Ex3" fragid="S0.Ex3">
+      <Math mode="display" tex="\sum_{n=0}^{\infty}x^{n}" text="((sum _ (n = 0)) ^ infinity)@(x ^ n)" xml:id="S0.Ex3.m1" fragid="S0.Ex3.m1"><m:math alttext="\sum_{n=0}^{\infty}x^{n}" display="block"><m:semantics><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:sum/><m:apply><m:eq/><m:ci>𝑛</m:ci><m:cn type="integer">0</m:cn></m:apply></m:apply><m:infinity/></m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:ci>𝑛</m:ci></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="mid1"/>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
+                <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                </XMApp>
+              </XMApp>
+              <XMTok fontsize="70%" meaning="infinity" name="infty" role="ID">∞</XMTok>
+            </XMApp>
+            <XMApp>
+              <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+              <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+  <para xml:id="p4" fragid="p4">
+    <equation xml:id="S0.Ex4" fragid="S0.Ex4">
+      <Math mode="display" tex="\frac{1}{1-x}=\sum_{n=0}^{\infty}x^{n}" text="1 / (1 - x) = ((sum _ (n = 0)) ^ infinity)@(x ^ n)" xml:id="S0.Ex4.m1" fragid="S0.Ex4.m1"><m:math alttext="\frac{1}{1-x}=\sum_{n=0}^{\infty}x^{n}" display="block"><m:semantics><m:apply><m:eq/><m:apply><m:divide/><m:cn type="integer">1</m:cn><m:apply><m:minus/><m:cn type="integer">1</m:cn><m:ci>𝑥</m:ci></m:apply></m:apply><m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:apply><m:csymbol cd="ambiguous">subscript</m:csymbol><m:sum/><m:apply><m:eq/><m:ci>𝑛</m:ci><m:cn type="integer">0</m:cn></m:apply></m:apply><m:infinity/></m:apply><m:apply><m:csymbol cd="ambiguous">superscript</m:csymbol><m:ci>𝑥</m:ci><m:ci>𝑛</m:ci></m:apply></m:apply></m:apply><m:annotation-xml encoding="application/x-latexml"><XMath><XMApp>
+            <XMTok meaning="equals" role="RELOP">=</XMTok>
+            <XMApp>
+              <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+              <XMApp>
+                <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMApp>
+            <XMApp>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="mid1"/>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
+                  <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+                  <XMApp>
+                    <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                    <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMTok fontsize="70%" meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMApp>
+          </XMApp></XMath></m:annotation-xml></m:semantics></m:math></Math>
+    </equation>
+  </para>
+</document>

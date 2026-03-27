@@ -1,0 +1,63 @@
+latexml (LaTeXML version 0.8.8; revision 48ad18db) processing /Users/guanshengmei/Documents/LaTeXML/test_input/02_functions.tex
+(Digesting TeX 02_functions...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base_Schema.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base_ParameterTypes.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base_Utility.pool.ltxml... 0.01 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base_XMath.pool.ltxml... 0.01 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Box.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Character.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Debugging.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_FileIO.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Fonts.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Glue.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Hyphenation.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Inserts.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Job.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Kern.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Logic.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Macro.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Marks.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Math.pool.ltxml... 0.01 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Page.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Paragraph.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Penalties.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Registers.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/TeX_Tables.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/eTeX.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/pdfTeX.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/Base_Deprecated.pool.ltxml... 0.01 sec) 0.08 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/plain_bootstrap.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/plain_base.pool.ltxml... 0.03 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/plain_constructs.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/math_common.pool.ltxml... 0.01 sec) 0.02 sec) 0.54 sec)
+(Processing content /Users/guanshengmei/Documents/LaTeXML/test_input/02_functions.tex...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/LaTeX.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/latex_bootstrap.pool.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/latex_base.pool.ltxml... 0.07 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/latex_constructs.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/plain_constructs.pool.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Engine/math_common.pool.ltxml... 0.01 sec) 0.02 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1enc.dfu... 0.01 sec) 0.02 sec) 0.14 sec) 0.35 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/article.cls.ltxml... 0.01 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amsbsy.sty.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amsgen.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amsopn.sty.ltxml... 0.00 sec) 0.04 sec)
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /Users/guanshengmei/perl5/lib/perl5/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.01 sec) 0.43 sec) 0.98 sec)
+(Building...
+(Loading compiled schema /Users/guanshengmei/perl5/lib/perl5/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec) 0.05 sec)
+(Rewriting... 0.00 sec)
+(Math Parsing 10 formulae ...... 0.04 sec)
+Math parsing succeeded:
+   ltx:XMArg: 6/6
+   ltx:XMath: 10/10
+Symbols assumed as simple identifiers (with # of occurences):
+   'e{OML italic}' (1), 'f{OML italic}' (2), 'g{OML italic}' (1), 'x{OML italic}' (9)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.01 sec)
+Conversion complete: No obvious problems (reqd. 1.17s)
