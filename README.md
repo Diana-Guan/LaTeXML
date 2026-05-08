@@ -1,12 +1,18 @@
-# LaTeX to MathML conversion using LaTeXML
+# LaTeX to MathML Conversion Using LaTeXML
 
 ## Purpose
 This project tests how LaTeXML converts LaTeX math into:
+
 - XMath
 - Content MathML
 - XMath + Content MathML
 
 The main goal is to evaluate which representation is most useful for ontology labeling.
+
+I also built a math extraction tool for this project. I created it because our original LaTeX files contain custom macros and more complicated packages that do not convert well under LaTeXML. For ontology labeling and downstream parsing, I needed a cleaner math-focused input file, so I built this extractor to isolate the mathematical content into a smaller LaTeX file that is easier for LaTeXML to process.
+
+
+The extraction tool is located in `tools/extract_math.py`. It takes a larger LaTeX source file, extracts the math content, and generates a math-only `.tex` file for LaTeXML conversion. I also sent this extraction tool Python file to Tobias, and he revised the code to help support his Python parsing workflow as well.
 
 ## Project Structure
 - `test_input/`  
@@ -35,20 +41,24 @@ The main goal is to evaluate which representation is most useful for ontology la
 
 ## Current Conclusion
 The current comparison suggests that:
+
 - XMath + Content MathML together is the most useful choice for ontology labeling
 
-## How to Run the Extractor
-To create a math-only file from a larger LaTeX source:
-
-```bash
-cd /Users/guanshengmei/Documents/LaTeXML
-python3 tools/extract_math.py Q34_Version3.tex
-```
-## How to run [LaTeXML](https://github.com/brucemiller/latexml)
+## How to Run LaTeXML
 Make sure `latexml` and `latexmlpost` are available in your environment.
-Example commend:
+
+Example commands:
 
 ```bash
 latexml --destination=test_output/XMath/01_basic.xml test_input/01_basic.tex
 latexmlpost --format=xml --contentmathml --destination=test_output/ContentML/01_basic.xml test_output/XMath/01_basic.xml
 latexmlpost --format=xml --contentmathml --keepXMath --destination=test_output/XMath_ContentML/01_basic.xml test_output/XMath/01_basic.xml
+```
+
+## Output Types
+The LaTeXML workflow in this project is used to compare three output formats:
+
+- `XMath`: useful for preserving LaTeXML’s internal mathematical structure
+- `Content MathML`: useful for semantic interpretation
+- `XMath + Content MathML`: useful when both structural and semantic information are needed together
+
